@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "package": "com.FuFu.CabbageJellyPack.mixin",
+  "mixins": [
+  ],
+  "client": [
+    "AbstractFurnaceScreenAccessor",
+    "AddTabIcon",
+    "ContainerScreenAccesssor",
+    "CreativeModeInventoryScreenAccessor",
+    "NumberGuiMixin",
+    "RecipeBookComponentAccessor",
+    "TransparentAbstractContainerScreenMixin",
+    "TransparentAbstractFurnaceScreenMixin",
+    "TransparentBrewingStandScreenMixin",
+    "TransparentContainerScreenMixin",
+    "TransparentCrafterScreenMixin",
+    "TransparentCraftingScreenMixin",
+    "TransparentCreativeUIMixin",
+    "TransparentDispenserScreenMixin",
+    "TransparentGrindstoneScreenMixin",
+    "TransparentHopperMixin",
+    "TransparentHotbarUIMixin",
+    "TransparentRecipeBookTabButtonMixin",
+    "TransparentRecipeBookUIMixin",
+    "TransparentShulkerBoxScreenMixin",
+    "TransparentSurviveUIMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
